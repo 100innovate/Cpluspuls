@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\0_dimensional">
+      <UniqueIdentifier>{d22b2805-57c7-4400-b409-fd79e9887fa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\1_dimensional">
+      <UniqueIdentifier>{25892cd7-e8ff-4249-a3e3-6882abf1c2f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\2_dimensional">
+      <UniqueIdentifier>{686a1f3b-42a4-4338-89d9-912942967397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\3_dimensional">
+      <UniqueIdentifier>{30955a89-9b7d-4e89-b3ee-d79d05ff9916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\0_dimensional">
+      <UniqueIdentifier>{3fb5b651-1a0f-4526-bcc4-4d0111d681b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1_dimensional">
+      <UniqueIdentifier>{ca589792-c4a9-43dd-a76d-1135f5bfcf9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\2_dimensional">
+      <UniqueIdentifier>{dc5b1016-edbe-4d82-a1e9-3bf17255b9e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\3_dimensional">
+      <UniqueIdentifier>{ba65dd1d-b3d1-4398-be27-4af4458b38be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Template.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>头文件\0_dimensional</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>头文件\1_dimensional</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>头文件\2_dimensional</Filter>
+    </ClInclude>
+    <ClInclude Include="Rectangle.h">
+      <Filter>头文件\2_dimensional</Filter>
+    </ClInclude>
+    <ClInclude Include="Square.h">
+      <Filter>头文件\2_dimensional</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>头文件\3_dimensional</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>头文件\3_dimensional</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuboid.h">
+      <Filter>头文件\3_dimensional</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="backpackProblem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="backpackproblem2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="goods.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Container.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>源文件\0_dimensional</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>源文件\2_dimensional</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>源文件\3_dimensional</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuboid.cpp">
+      <Filter>源文件\3_dimensional</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>源文件\3_dimensional</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>源文件\1_dimensional</Filter>
+    </ClCompile>
+    <ClCompile Include="Rectangle.cpp">
+      <Filter>源文件\2_dimensional</Filter>
+    </ClCompile>
+    <ClCompile Include="Square.cpp">
+      <Filter>源文件\2_dimensional</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
