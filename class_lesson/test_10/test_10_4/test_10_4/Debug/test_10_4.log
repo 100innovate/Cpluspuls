@@ -1,0 +1,6 @@
+﻿  main.cpp
+  defind.cpp
+  正在生成代码...
+d:\coder\test_10\test_10_4\test_10_4\defind.cpp(18): warning C4715: “Fraction::common”: 不是所有的控件路径都返回值
+  test_10_4.vcxproj -> D:\Coder\test_10\test_10_4\Debug\test_10_4.exe
+  test_10_4.vcxproj -> D:\Coder\test_10\test_10_4\Debug\test_10_4.pdb (Full PDB)

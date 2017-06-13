@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\coder\test_8\test_8_2\test_8_2\main.cpp(21): warning C4715: “px”: 不是所有的控件路径都返回值
+  test_8_2.vcxproj -> D:\Coder\test_8\test_8_2\Debug\test_8_2.exe
+  test_8_2.vcxproj -> D:\Coder\test_8\test_8_2\Debug\test_8_2.pdb (Full PDB)

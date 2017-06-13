@@ -1,0 +1,9 @@
+﻿  define.cpp
+  正在生成代码...
+d:\coder\test_7\test_7_2\test_7_2\define.cpp(8): warning C4715: “Calculate”: 不是所有的控件路径都返回值
+  正在编译...
+  putin.cpp
+  main.cpp
+  正在生成代码...
+  test_7_2.vcxproj -> D:\Coder\test_7\test_7_2\Debug\test_7_2.exe
+  test_7_2.vcxproj -> D:\Coder\test_7\test_7_2\Debug\test_7_2.pdb (Full PDB)

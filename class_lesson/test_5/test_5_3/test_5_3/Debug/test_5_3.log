@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\coder\test_5\test_5_3\test_5_3\main.cpp(9): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  test_5_3.vcxproj -> D:\Coder\test_5\test_5_3\Debug\test_5_3.exe
+  test_5_3.vcxproj -> D:\Coder\test_5\test_5_3\Debug\test_5_3.pdb (Full PDB)
