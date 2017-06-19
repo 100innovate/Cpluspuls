@@ -8,23 +8,19 @@ using namespace std;
 
 class Calculator {
 	LinkStack<double>m_numStack;
-	LinkStack<char>m_charStack;
-
-	int GetPrecedence(char exp, bool isCurrent);
-	void GetnumCIN(char *&exp);
-	char GetcharCIN(char *&exp);
-	void compute();//º∆À„
-
+	LinkStack<string>m_strStack;
 public:
 	Calculator() {};
-	
-	void calculate(char *exp);
-
+	void compute();
+	void calculate(string &);
+	const double Getnum();
+	const string Getchar();
+	void GetnumCIN(char *& exp);
+	string GetcharCIN(char *& exp);
 
 };
 
-
-
+int getPrecedence(const string &exp, bool isCurrent);
 
 
 

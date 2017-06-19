@@ -1,12 +1,19 @@
 #include"calculator.h"
 
+
+
+
+
 int main() {
 	Calculator cal;
 
-	char c[80];
+	string c;
 	cin >> c;
 	
 	cal.calculate(c);
+
+
+
 
 	system("pause");
 	return 0;
