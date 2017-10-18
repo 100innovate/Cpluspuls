@@ -71,22 +71,30 @@ void Calculator::compute() {
 			num2 = 0;
 		}
 		else num2 = m_numStack.pop();
-		if (str == "+")
+		if (str == "+") {
 			m_numStack.push(num2 + num1);
+			cout << '+';
+		}
 		else if (str == "-") {
 			m_numStack.push(num2 - num1);
+			cout << '-';
 		}
-		else if (str == "*")
+		else if (str == "*") {
 			m_numStack.push(num2 * num1);
-		else if (str == "/")
+			cout << '*';
+		}
+		else if (str == "/") {
 			m_numStack.push(num2 / num1);
+			cout << '/';
+		}
 		else if (str == "%")
 			m_numStack.push((int)num2 % (int)num1);
 		else if (str == "^")
 			m_numStack.push(pow(num2, num1));
 	}
 	else if (str == "=") {
-		cout<<m_numStack.pop();
+		//cout<<m_numStack.pop();
+		cout << endl;
 	}
 	else if (str == "cos")
 		m_numStack.push(cos(m_numStack.pop()));
@@ -112,6 +120,7 @@ void Calculator::GetnumCIN(char *& exp)
 			tmp += (*exp - 48) *pow(10, -i);
 	}
 	//记录小数位
+	cout << tmp << " ";
 	m_numStack.push(tmp);
 	//存入数据
 }

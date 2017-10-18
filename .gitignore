@@ -44,3 +44,7 @@ backpack_over/.vs/backpack1/v14/.suo
 *.pdb
 *.idb
 *.enc
+*.vcxproj
+*.db
+*.filters
+*.opendb
