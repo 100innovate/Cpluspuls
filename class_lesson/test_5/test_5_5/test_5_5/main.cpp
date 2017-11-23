@@ -1,14 +1,21 @@
-#include<iostream>
-
+#include <iostream>
 using namespace std;
 
-auto sum(int a, int b) {
-	return a + b;
-}
+int str_len(char *str);
 
 int main() {
-	int a = 1;
-	int b = 2;
-	cout<<sum(a, b);
+	char *str = new char[100];
+	cin >> str;
+	cout << str_len(str);
+	delete str;
+	return 0;
+}
 
+int str_len(char *str) {
+	//请在这里完成你的函数
+	int sum(0);
+	while (str[sum]!='\0') {
+		sum += 1;
+	}
+	return sum;
 }
